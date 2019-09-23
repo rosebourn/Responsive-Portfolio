@@ -176,66 +176,170 @@ hr {
     border: 0;
 }
 
-@media screen and (max-width: 980px) {
-    container-1 {
-        width: 960px;
-        height: 500px;
-    }
-
-    .site-header {
-        margin: auto 0;
-        padding: 10px;
-    }
-
-    .navigation {
-        margin: auto 0;
-        padding: 10px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .container-1 {
-        width: 750px;
-        height: 650px;
-        padding: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .site-header {
-        margin: auto 0;
-        padding: 10px;
-    }
-
-    .navigation {
-        margin: auto 0;
-        padding: 10px;
-    }
-}
-
 @media screen and (max-width: 640px) {
-    .container-1 {
-        width: 650px;
-        height: 800px;
-        padding: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
     .site-header {
-        padding: 10px;
         position: static;
         margin: auto 0;
+        height: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .navigation {
-        margin: auto 0;
-        padding: 10px;
+        margin-right: 50%;
     }
 
-    .footer {
-        position: fixed;
+    nav {
+        margin-top: 9px;
+    }
+
+    .page-header {
+        margin-top: 10px;
+    }
+
+    #bio-image {
+        height: 200px;
+        width: 175px;
+    }
+
+    .container-1 {
+        width: 525px;
+        height: 610px;
+        font-size: 13px;
+    }
+
+    .container-2 {
+        width: 525px;
+        height: 550px;
+    }
+
+    .container-3 {
+        width: 575px;
+        height: 1200px;
+    }
+
+    footer {
+        position: absolute;
         bottom: 0;
+        width: 100%;
+        height: 25px;
+        padding: 2px;
+    }
+
+    input[type=text] {
+        width: 92%;
+    }
+
+    form {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .site-header {
+        margin: auto 0;
+        height: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navigation {
+        margin-right: 50%;
+    }
+
+    nav {
+        margin-top: 9px;
+    }
+
+    #bio-image {
+        height: 250px;
+        width: 200px;
+    }
+
+    .container-1 {
+        width: 600px;
+        height: 625px;
+        font-size: 15px;
+    }
+
+    .container-2 {
+        width: 625px;
+        height: 550px;
+    }
+
+    .container-3 {
+        width: 700px;
+        height: 770px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 25px;
+        padding: 2px;
+    }
+
+    input[type=text] {
+        width: 93%;
+    }
+
+    form {
+        margin-left: 33px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    
+    .site-header {
+        margin: auto 0;
+        padding-top: 30px;
+        height: 65px;
+    }
+
+    .navigation {
+        margin-right: 50%;
+    }
+
+    nav {
+        margin-top: 9px;
+    }
+
+    #bio-image {
+        height: 250px;
+        width: 200px;
+    }
+    
+    .container-1 {
+        width: 750px;
+        height: 550px;
+        font-size: 16px;
+    }
+
+    .container-2 {
+        width: 800px;
+        height: 550px;
+    }
+
+    .container-3 {
+        width: 750px;
+        height: 775px;
+    }
+
+    input[type=text] {
+        width: 93%;
+    }
+
+    form {
+        margin-left: 43px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 25px;
+        padding: 2px;
     }
 }
     
