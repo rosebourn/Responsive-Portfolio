@@ -168,6 +168,10 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.link-color {
+    color: #4aaaa5;
+}
+
 ul.links li {
     display: inline;
 }
@@ -361,7 +365,7 @@ hr {
         height: 25px;
         padding: 2px;
     }
-}
+} 
     
     
 
@@ -369,4 +373,4 @@ hr {
 
 
 
-
+  
