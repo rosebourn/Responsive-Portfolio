@@ -67,7 +67,7 @@ div.gallery {
 }
 
 #bio-image {
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     float: left;
     margin-right: 70px;
     margin-left: 70px;
